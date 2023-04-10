@@ -71,3 +71,24 @@
 #pauseBtn, #resumeBtn{
     display: none;
 }
+
+@media (max-width: 280px){
+    .timer{
+        font-size: 25px;
+        flex-direction: column;
+    }
+    .btn{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 340px){
+    .timer{
+        font-size: 40px;
+    }
+
+    .btn{
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+}
